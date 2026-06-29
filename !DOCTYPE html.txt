@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Learning Management System</h1>
+        <p>Learn Anytime, Anywhere</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Assignments</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to LMS</h2>
+        <p>Access your courses, assignments, and learning materials online.</p>
+        <button>Explore Courses</button>
+    </section>
+
+    <section class="courses">
+        <h2>Available Courses</h2>
+
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, and JavaScript from basics.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Python Programming</h3>
+            <p>Understand Python programming with examples.</p>
+        </div>
+
+        <div class="course-card">
+            <h3>Database Management</h3>
+            <p>Learn SQL and database concepts.</p>
+        </div>
+    </section>
+
+    <section class="assignment">
+        <h2>Today's Assignment</h2>
+        <p>Create a simple web page using HTML and CSS.</p>
+        <button>Submit Assignment</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Learning Management System | Internship Project</p>
+    </footer>
+
+</body>
+</html>

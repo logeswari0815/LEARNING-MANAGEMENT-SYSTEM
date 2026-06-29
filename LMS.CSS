@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#005fa3;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:50px;
+    background:white;
+}
+
+.hero h2{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+button{
+    background:#0077cc;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#005fa3;
+}
+
+.courses{
+    text-align:center;
+    padding:40px;
+}
+
+.course-card{
+    display:inline-block;
+    width:250px;
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.course-card h3{
+    color:#0077cc;
+    margin-bottom:10px;
+}
+
+.assignment{
+    text-align:center;
+    background:white;
+    margin:30px;
+    padding:30px;
+    border-radius:10px;
+}
+
+footer{
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
